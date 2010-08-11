@@ -26,4 +26,8 @@ graph.addEdge(graph.vertices[6],graph.vertices[2])
 graph.addEdge(graph.vertices[7],graph.vertices[8])
 graph.addEdge(graph.vertices[8],graph.vertices[7])
 
-println new DepthFirstSearch().search(graph, graph.vertices[0])
+def pred = new DepthFirstSearch().search(graph, graph.vertices[0])
+
+pred.each{ k,v ->
+  println "${k.name} -> ${v.name}"
+}

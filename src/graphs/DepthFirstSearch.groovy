@@ -20,6 +20,11 @@ class DepthFirstSearch {
     counter = 0
 
     visit(graph,s)
+
+    for( v in graph.vertices ){
+      if( color[v] == Marker.WHITE)
+        visit(graph, v)
+    }
     return pred
   }
 
