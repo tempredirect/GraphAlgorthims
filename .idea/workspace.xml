@@ -87,19 +87,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build_graph1.groovy" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="build_graph1.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/build_graph1.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="26" selection-start="915" selection-end="915" vertical-scroll-proportion="0.0">
+            <state line="19" column="20" selection-start="289" selection-end="289" vertical-scroll-proportion="0.88439304">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DepthFirstSearch.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DepthFirstSearch.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/graphs/DepthFirstSearch.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="14" selection-start="692" selection-end="692" vertical-scroll-proportion="0.35890412">
+            <state line="44" column="0" selection-start="583" selection-end="709" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BreadthFirstSearch.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/graphs/BreadthFirstSearch.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="29" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -122,8 +131,10 @@
         <option value="$PROJECT_DIR$/src/graphs/Vertex.groovy" />
         <option value="$PROJECT_DIR$/src/graphs/Marker.groovy" />
         <option value="$PROJECT_DIR$/src/graphs/AdjacencyGraph.groovy" />
-        <option value="$PROJECT_DIR$/src/build_graph1.groovy" />
         <option value="$PROJECT_DIR$/src/graphs/DepthFirstSearch.groovy" />
+        <option value="$PROJECT_DIR$/src/graphs/BrendthFirstSearch.groovy" />
+        <option value="$PROJECT_DIR$/src/graphs/BreadthFirstSearch.groovy" />
+        <option value="$PROJECT_DIR$/src/build_graph1.groovy" />
       </list>
     </option>
   </component>
@@ -505,6 +516,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar:///usr/lib/jvm/java-6-sun-1.6.0.20/src.zip!/java/util/ArrayDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="29" selection-start="2500" selection-end="2500" vertical-scroll-proportion="0.05202312">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/graphs/Vertex.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="8" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" />
@@ -520,16 +538,23 @@
         <state line="5" column="6" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/build_graph1.groovy">
+    <entry file="file://$PROJECT_DIR$/src/graphs/DepthFirstSearch.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="26" selection-start="915" selection-end="915" vertical-scroll-proportion="0.0">
+        <state line="44" column="0" selection-start="583" selection-end="709" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/graphs/DepthFirstSearch.groovy">
+    <entry file="file://$PROJECT_DIR$/src/graphs/BreadthFirstSearch.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="14" selection-start="692" selection-end="692" vertical-scroll-proportion="0.35890412">
+        <state line="37" column="29" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/build_graph1.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="20" selection-start="289" selection-end="289" vertical-scroll-proportion="0.88439304">
           <folding />
         </state>
       </provider>
