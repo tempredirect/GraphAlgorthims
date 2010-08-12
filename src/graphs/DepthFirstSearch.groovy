@@ -3,41 +3,46 @@ package graphs
 /**
  */
 class DepthFirstSearch {
+  def graph
   def color = [:]
-  def depth = [:]
-  def f = [:]
+  def discovered = [:]
+  def finished = [:]
+  def predecessor = [:]
   def counter = 0
-  def pred = [:]
 
-  def search(graph,s){
+  def DepthFirstSearch(graph){
+    this.graph = graph;
+  }
+
+  def search(s){
 
     graph.vertices.each {
       color[it] = Marker.WHITE;
-      depth[it] = -1
-      f[it] = -1
+      discovered[it] = -1
+      finished[it] = -1
     }
 
     counter = 0
 
-    visit(graph,s)
+    visit(s)
 
     for( v in graph.vertices ){
       if( color[v] == Marker.WHITE)
-        visit(graph, v)
+        visit(v)
     }
-    return pred
+    return predecessor
   }
 
-  def visit(graph, u) {
+  def visit(u) {
     color[u] = Marker.GREY
-    depth[u] = ++counter
+    discovered[u] = ++counter
     graph.edges[u].each { v ->
       if( color[v] == Marker.WHITE){
-        pred[v] = u
-        visit(graph, v)
+        predecessor[v] = u
+        visit(v)
       }
     }
     color[u] = Marker.BLACK
-    f[u] = ++counter
+    finished[u] = ++counter
   }
 }
