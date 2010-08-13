@@ -4,7 +4,7 @@ import graphs.*
 
 def graph = new AdjacencyGraph()
 
-(0..8).each {
+8.times {
   graph << new Vertex(name:"node-${it}")
 }
 

@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="1e9f042b-bfd4-411c-a9c9-d905d2ee95f7" name="Default" comment="" />
+    <list default="true" readonly="true" id="1e9f042b-bfd4-411c-a9c9-d905d2ee95f7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/build_graph2.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/graphs/Vertex.groovy" afterPath="$PROJECT_DIR$/src/graphs/Vertex.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/graphs/DirectedWeightedGraph.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/graphs/Edge.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/build_graph1.groovy" afterPath="$PROJECT_DIR$/src/build_graph1.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/graphs/DijkstraSearch.groovy" />
+    </list>
     <ignored path="$USER_HOME_GRAILS$/" />
     <ignored path="$USER_HOME_GRIFFON$/" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,6 +28,21 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/graphs/DijkstraSearch.groovy" line="30" class="Class at DijkstraSearch.groovy:30" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -63,43 +87,70 @@
       <file leaf-file-name="Vertex.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/graphs/Vertex.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="8" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
+            <state line="8" column="24" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdjacencyGraph.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/graphs/AdjacencyGraph.groovy">
+      <file leaf-file-name="DirectedWeightedGraph.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/graphs/DirectedWeightedGraph.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="10" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
+            <state line="9" column="15" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Marker.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/graphs/Marker.groovy">
+      <file leaf-file-name="build_graph2.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/build_graph2.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="6" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
+            <state line="17" column="26" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build_graph1.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AbstractQueue.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-6-sun-1.6.0.20/src.zip!/java/util/AbstractQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="85" column="15" selection-start="3297" selection-end="3297" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Queue.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-6-sun-1.6.0.20/src.zip!/java/util/Queue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="170" column="6" selection-start="7282" selection-end="7282" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DijkstraSearch.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/graphs/DijkstraSearch.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="26" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build_graph1.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/build_graph1.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="20" selection-start="289" selection-end="289" vertical-scroll-proportion="0.88439304">
+            <state line="49" column="1" selection-start="1013" selection-end="1489" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DepthFirstSearch.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/graphs/DepthFirstSearch.groovy">
+      <file leaf-file-name="Edge.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/graphs/Edge.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="0" selection-start="583" selection-end="709" vertical-scroll-proportion="0.0">
+            <state line="22" column="10" selection-start="378" selection-end="378" vertical-scroll-proportion="0.704918">
               <folding />
             </state>
           </provider>
@@ -108,7 +159,7 @@
       <file leaf-file-name="BreadthFirstSearch.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/graphs/BreadthFirstSearch.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="29" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0">
+            <state line="6" column="2" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -128,13 +179,17 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/graphs/Vertex.groovy" />
         <option value="$PROJECT_DIR$/src/graphs/Marker.groovy" />
         <option value="$PROJECT_DIR$/src/graphs/AdjacencyGraph.groovy" />
         <option value="$PROJECT_DIR$/src/graphs/DepthFirstSearch.groovy" />
         <option value="$PROJECT_DIR$/src/graphs/BrendthFirstSearch.groovy" />
         <option value="$PROJECT_DIR$/src/graphs/BreadthFirstSearch.groovy" />
         <option value="$PROJECT_DIR$/src/build_graph1.groovy" />
+        <option value="$PROJECT_DIR$/src/graphs/Vertex.groovy" />
+        <option value="$PROJECT_DIR$/src/graphs/DirectedWeightedGraph.groovy" />
+        <option value="$PROJECT_DIR$/src/build_graph2.groovy" />
+        <option value="$PROJECT_DIR$/src/graphs/DijkstraSearch.groovy" />
+        <option value="$PROJECT_DIR$/src/graphs/Edge.groovy" />
       </list>
     </option>
   </component>
@@ -241,7 +296,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="preferences.sourceCode" />
+    <property name="options.lastSelected" value="reference.idesettings.debugger.typerenderers" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -252,7 +307,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="Groovy Script.build_graph1">
+  <component name="RunManager" selected="Groovy Script.build_graph2">
     <configuration default="false" name="build_graph1" type="GroovyScriptRunConfiguration" factoryName="Groovy Script" temporary="true">
       <module name="GraphAlgorthims" />
       <setting name="path" value="$PROJECT_DIR$/src/build_graph1.groovy" />
@@ -261,6 +316,23 @@
       <setting name="workDir" value="$PROJECT_DIR$/src" />
       <setting name="debug" value="false" />
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="build_graph2" type="GroovyScriptRunConfiguration" factoryName="Groovy Script" temporary="true">
+      <module name="GraphAlgorthims" />
+      <setting name="path" value="$PROJECT_DIR$/src/build_graph2.groovy" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/src" />
+      <setting name="debug" value="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="44999" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -423,8 +495,9 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Groovy Script.build_graph1" />
+      <item index="1" class="java.lang.String" itemvalue="Groovy Script.build_graph2" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -464,20 +537,20 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39865997" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24905087" sideWeight="0.65829146" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24905087" sideWeight="0.58961475" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32998326" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24981017" sideWeight="0.65829146" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -516,28 +589,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/java-6-sun-1.6.0.20/src.zip!/java/util/ArrayDeque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="29" selection-start="2500" selection-end="2500" vertical-scroll-proportion="0.05202312">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/graphs/Vertex.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="8" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/graphs/AdjacencyGraph.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="10" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/graphs/Marker.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="6" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/graphs/DepthFirstSearch.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="0" selection-start="583" selection-end="709" vertical-scroll-proportion="0.0">
@@ -545,16 +596,107 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/graphs/AdjacencyGraph.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="215" selection-end="281" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/groovy-1.7.2/src/main/groovy/lang/Immutable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="0" selection-start="4060" selection-end="4060" vertical-scroll-proportion="0.054380666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/graphs/BreadthFirstSearch.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="29" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0">
+        <state line="6" column="2" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-6-sun-1.6.0.20/src.zip!/java/util/concurrent/PriorityBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="168" column="22" selection-start="6792" selection-end="6792" vertical-scroll-proportion="0.37818182">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-6-sun-1.6.0.20/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="13" selection-start="1649" selection-end="1649" vertical-scroll-proportion="0.19636364">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-6-sun-1.6.0.20/src.zip!/java/util/concurrent/BlockingDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="171" column="48" selection-start="5963" selection-end="5963" vertical-scroll-proportion="0.43272728">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graphs/Vertex.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="24" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-6-sun-1.6.0.20/src.zip!/java/util/AbstractQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="15" selection-start="3297" selection-end="3297" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-6-sun-1.6.0.20/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="170" column="6" selection-start="7282" selection-end="7282" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/build_graph1.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="20" selection-start="289" selection-end="289" vertical-scroll-proportion="0.88439304">
+        <state line="49" column="1" selection-start="1013" selection-end="1489" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graphs/DirectedWeightedGraph.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="15" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-6-sun-1.6.0.20/src.zip!/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="514" column="13" selection-start="19269" selection-end="19269" vertical-scroll-proportion="0.29180327">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/build_graph2.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="26" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graphs/DijkstraSearch.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="26" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graphs/Edge.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="10" selection-start="378" selection-end="378" vertical-scroll-proportion="0.704918">
           <folding />
         </state>
       </provider>
