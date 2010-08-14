@@ -27,7 +27,7 @@ class DijkstraSearch {
         def v = it.vertex
         def newLength = distance[u] + weight
         def oldLength = distance[v]
-        if( newLength > oldLength
+        if( newLength < oldLength
           || oldLength == Integer.MAX_VALUE){
           pq.remove(new Edge(v, oldLength))
           pq << new Edge(v, newLength)
