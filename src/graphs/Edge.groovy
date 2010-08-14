@@ -19,8 +19,33 @@ class Edge implements Comparable<Edge> {
 
 
   public String toString ( ) {
-  return "Edge{" +
-  "vertex=" + vertex.name +
-  ", weight=" + weight +
-  '}' ;
-  }}
+    return "Edge{" +
+            "vertex=" + vertex.name +
+            ", weight=" + weight +
+            '}' ;
+  }
+
+
+  boolean equals(o) {
+    if (this.is(o)) return true;
+
+    if (getClass() != o.class) return false;
+
+    Edge edge = (Edge) o;
+
+    if (weight != edge.weight) return false;
+    if (vertex != edge.vertex) return false;
+
+    return true;
+  }
+
+  int hashCode() {
+    int result;
+
+    result = (vertex != null ? vertex.hashCode() : 0);
+    result = 31 * result + weight;
+    return result;
+  }
+}
+
+

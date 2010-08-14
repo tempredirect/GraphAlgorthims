@@ -1,6 +1,7 @@
 package graphs
 
 /**
+ * 
  */
 class DijkstraSearch {
   def distance = [:]
