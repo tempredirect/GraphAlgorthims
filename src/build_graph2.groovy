@@ -14,7 +14,8 @@ graph.addEdge(graph.vertices[2],new Edge(graph.vertices[4], 1))
 graph.addEdge(graph.vertices[3],new Edge(graph.vertices[0], 8))
 graph.addEdge(graph.vertices[4],new Edge(graph.vertices[3], 7))
 
-[new DijkstraSearch(graph:graph)].each { searcher  ->
+[new DijkstraSearch(graph:graph), new BellmanFordSearcher(graph:graph)]
+        .each { searcher  ->
   def pred = searcher.search(graph.vertices[0])
 
   println "**** ${searcher.class.name}"
